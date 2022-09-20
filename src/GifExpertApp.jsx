@@ -7,7 +7,6 @@ export const GifExpertApp = function(){
         if(categories.includes(newCategory)){
             return;
         }
-        // Valorant
         setCategories([newCategory]);
     }
     return(
